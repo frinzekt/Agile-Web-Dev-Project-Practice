@@ -1,0 +1,30 @@
+{
+	"name": "Agile-Web-Dev-Project-Practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"vscode:prepublish": "webpack --mode production",
+		"webpack": "webpack --mode development",
+		"webpack-dev": "webpack --mode development --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frinzekt/Agile-Web-Dev-Project-Practice.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/frinzekt/Agile-Web-Dev-Project-Practice/issues"
+	},
+	"homepage": "https://github.com/frinzekt/Agile-Web-Dev-Project-Practice#readme",
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.3.1",
+		"babel-loader": "^8.0.5",
+		"webpack": "^4.29.0",
+		"webpack-cli": "^3.2.1",
+		"webpack-dev-server": "^3.1.14"
+	}
+}
